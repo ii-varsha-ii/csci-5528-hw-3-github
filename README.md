@@ -18,3 +18,9 @@ git switch -c bug-fix-experimental
 git add .   
 git commit -m "commit 7: ref commit 4"   
 git push   
+
+8: bug-fix-experimental: commit 8    
+[ Edit README.md ]    
+git add .   
+git commit -m "commit 8: ref commit 7"   
+git push   
