@@ -23,4 +23,10 @@ git push
 [ Edit README.md ]    
 git add .   
 git commit -m "commit 8: ref commit 7"   
-git push   
+git push
+
+9: bug-fix-experimental: commit 9   
+[ Edit README.md ]    
+git add .   
+git commit -m "commit 9: ref commit 8"    
+git push       
