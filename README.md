@@ -15,4 +15,16 @@ git checkout <commit 0 ref>
 git switch -c bug-fix
 
 4: bug_fix: commit 4:
-[ Edit README.md ]      
+[ Edit README.md ]
+
+5: bug_fix: commit 5:
+git merge main
+[Resolve merge conflicts]
+git add .
+git commit -m "commit 5: ref cmmit 2: Merge conflict"
+
+6: bug_fix: commit 6: ref commit 5: 
+[ Edit README.md ]
+
+
+      
