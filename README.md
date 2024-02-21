@@ -3,9 +3,18 @@ Homework 3
 Teammates: Adarsh Srinivasan, Varsha Natarajan
 Due: 02/20/2024
    
-3: bug_fix: commit 3:    
-git checkout <commit 0 ref>   
-git switch -c bug-fix    
+3: bug_fix: commit 3:     
+git checkout <commit 0 ref>     
+git switch -c bug-fix      
 
-4: bug_fix: commit 4:    
-[ Edit README.md ]      
+4: bug_fix: commit 4:       
+[ Edit README.md ]   
+
+7: bug_fix_experimental: commit 7    
+git checkout bug-fix  
+git checkout <commit 4 ref>   
+git switch -c bug-fix-experimental   
+[ Edit README.md ]   
+git add .   
+git commit -m "commit 7: ref commit 4"   
+git push   
