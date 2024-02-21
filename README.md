@@ -45,4 +45,17 @@ git push
 [ Edit README.md ]    
 git add .   
 git commit -m "commit 9: ref commit 8"    
-git push       
+git push   
+
+11: bug-fix: commit 11: ref commit 9    
+git merge bug-fix-experimental    
+[ Resolve conflicts ]    
+git add .    
+git commit -m "commit 11: ref commit 9"    
+git push    
+
+12: bug-fix: commit 12: ref commit 11
+[ Edit README.md ]    
+git add .   
+git commit -m "commit 12: ref commit 11"   
+git push         
