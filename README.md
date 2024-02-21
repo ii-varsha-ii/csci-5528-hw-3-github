@@ -5,4 +5,5 @@ Due: 02/20/2024
 
 List of commands:   
 0: Edit README.md   
-1: Add `<br>` in README.md   
+1: Add `<br>` in README.md
+2: Editting README.md to make commit 2      
